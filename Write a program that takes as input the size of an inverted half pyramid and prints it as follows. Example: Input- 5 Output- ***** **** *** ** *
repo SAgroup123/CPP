@@ -1,0 +1,21 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+	int size;
+	
+	cout<<"Enter size of ther pyramid: ";
+	cin>>size;
+
+	
+	for(int i=1; i<=size; i++)
+	{
+	    for(int j=size; j>=i; j--)
+		{
+			
+			cout<<"* ";
+			
+		}
+		cout<<"\n";
+	}
+}
